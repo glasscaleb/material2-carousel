@@ -236,9 +236,10 @@ implements AfterContentInit, AfterViewInit, MatCarousel, OnDestroy {
   }
 
   @HostListener("mousewheel", ["$event"])
-  public onMouseWheel(event: MouseWheelEvent): void {
+  public onMouseWheel(event: WheelEvent): void {
       if (this.useMouseWheel) {
           event.preventDefault(); // prevent window to scroll
+
           const Δ = Math.sign(event.deltaY);
 
           if (Δ > 0) {
