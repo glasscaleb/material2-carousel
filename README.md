@@ -6,8 +6,8 @@
 [![Material2 Carousel](./projects/demo/src/assets/Biglogo.png)](https://github.com/gabrielbusarello/material2-carousel)
 
 ## EXTRA NOTICE
-
-This version has been further forked to upgrade it to use Angular 11 and Angular 12.
+-- Caleb Glass --
+This version has been further forked to upgrade it to use Angular 11 and Angular 12 and Angular 13.
 
 ## NOTICE
 Hi guys, how are you?

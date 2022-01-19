@@ -1,15 +1,17 @@
 {
-  "name": "@kdeenanauth/material-carousel",
-  "description": "Fork of @ngbmodule/material-carousel for Angular 11 and 12 (thanks to ez5504). Carousel component for Angular using Material Design.",
-  "version": "12.2.0",
+  "name": "@olero/material-carousel",
+  "description": "Fork of @kdeenanauth/material-carousel for Angular 13. Carousel component for Angular using Material Design.",
+  "version": "13.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kdeenanauth/material2-carousel.git"
+    "url": "git+https://github.com/glasscaleb/material2-carousel.git"
   },
-  "author": "Kevin Deenanauth <kevin@deenanauth.com>",
+  "author": "Olero <support@olero.com>",
   "license": "MIT",
   "homepage": "https://gabrielbusarello.github.io/material2-carousel/",
-  "bugs": "https://github.com/kdeenanauth/material2-carousel/issues",
+  "bugs": {
+    "url": "https://github.com/kdeenanauth/material2-carousel/issues"
+  },
   "keywords": [
     "angular",
     "material",
@@ -21,8 +23,13 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/material": "^12.2.0",
+    "@angular/material": "^13.1.1",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.6.0"
-  }
+  },
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "none"
+  },
+  "dependencies": {}
 }
