@@ -1,5 +1,5 @@
 {
-  "name": "@olero/material-carousel",
+  "name": "@calebolero/material-carousel",
   "description": "Fork of @kdeenanauth/material-carousel for Angular 13. Carousel component for Angular using Material Design.",
   "version": "13.0.0",
   "repository": {
